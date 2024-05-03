@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000;color: rgb(251, 251, 251);
+  }
+  
+  header {
+    background-color: rgb(28, 28, 28);
+    padding: 30px;
+    text-align: center;
+    color: #f1f1f1;
+  }
+  header img {
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 50%;
+    margin-bottom:1000000000%;
+    position:absolute;
+    left: 40px;
+    top: 5px;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 400px;
+  }
+  
+  nav a {
+    color: #5f5c5c;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 0rem 0rem; }
+    .nav-link:hover, .nav-link:focus {
+      text-decoration: none; }
+    .nav-link.disabled {
+      color: #6c757d;
+      pointer-events: none;
+      cursor: default; }
+
+  nav a:hover {
+    color: #f2f242e3;
+  }
+
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .about{
+    text-align: justify;
+  }
+
+  #about img {
+    width: 200px;
+    border-radius: 70%;
+    position:absolute;
+    right: 40px;
+    margin-right: 100px;
+   
+  }
+  .progress-bar {
+    background-color: #f1f1f1;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-right: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  
+  .progress {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+  }
+
+
+  
+  .progress[data-percent] {
+
+    width: attr(data-percent)  ;
+  }
+
+  /* Target all list items within an unordered list (<ul>) */
+ul li {
+  /* Set the list-style-type property to none to remove markers */
+  list-style-type: none;
+  /* Add some padding for better spacing (optional) */
+  padding: 5px 0;
+}
+
+  
+  .project {
+    margin-bottom: 20px;
+    
+  }
+  .card-container {
+    /* Apply flexbox properties to center child elements */
+    display: flex;
+    justify-content: center;
+    /* Optional: Add some margin or padding for better spacing */
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  
+  .project-card {
+    /* Set background color, borders, and padding for the card */
+    background-color: #040101;
+    border: 1px solid #e9ef39;
+    padding: 1px;
+    margin-bottom: 20px;
+    /* Optional: Add rounded corners for a smoother look */
+    border-radius: 5px;
+    width:  20%;
+    margin-left: 100px;
+  }
+  
+  .project-card h3 {
+    /* Style the project title */
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .project-card img {
+    /* Style the project image */
+    width: 100%; /* Adjust width as needed */
+    /* Optional: Add some space below the image */
+    margin-bottom: 10px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .project-card p {
+    /* Style the project description */
+    /* Adjust font size, line height, etc. as needed */
+    font-size: 14px;
+    line-height: 18px;
+    color: #faf4f4;
+    text-align: center;
+  }
+  
+
+  .project img {
+    width: 100%;
+    width: 200px;
+    border-radius: 50%;
+    
+  
+  }
+
+ /* button {
+    /* Set background color, border, and padding for the button */
+   /* background-color: #6a6a62; 
+    border: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    font-size: 16px;
+    /* Optional: Add rounded corners and hover effect */
+    /*border-radius: 50px 50px;;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 100px;
+  }
+  
+  button:hover {
+    background-color: #e6f021; /* Darker green on hover */
+ /* }*/
+ .cv{
+ a {
+  /* Remove default link styles (underline, hover color change) */
+  text-decoration: none;
+  color: inherit; /* Inherit text color from surrounding element */
+  
+  /* Set button-like styles */
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ddd; /* Adjust border color as needed */
+  background-color: #303136d7; /* Adjust background color as needed */
+  border-radius: 5px; /* Add rounded corners for a smoother look */
+  cursor: pointer; /* Indicate clickable behavior */
+  transition: background-color 0.3s ease; /* Optional: Add hover effect */
+  margin-left: 60px;
+}
+
+a:hover {
+  background-color: #e9f90cd7; /* Change background color on hover (optional) */
+  color: #000;
+}
+ }
+
+  .contactme{
+     margin-left: 80px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(28, 28, 28);;
+  }
+ 
+  
+  
+.social-icons img {
+  border-radius: 20%;
+  width: 40px;
+  place-items:  center;
+  margin: 5px;
+  justify-items: center;
+}

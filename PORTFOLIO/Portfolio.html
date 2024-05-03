@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpit's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/mylogo.png" alt="Me">
+    <nav>
+      <a href="#about" class="nav-link"><span>About Me</span></a>
+      <a href="#skills" class="nav-link"><span>Skills</span></a>
+      <a href="#projects" class="nav-link"><span>Projects</span></a>
+      <a href="#resume" class="nav-link"><span>Resume</span></a>
+      <a href="#contact" class="nav-link"><span>Contact Me</span></a>
+    </nav>
+
+  </header>
+
+  <section id="about">
+   <!-- <h2>About Me</h2>-->
+    <img src="images/about_me.png" alt="about_me">
+    <h1>Hi all I'm Arpit 👋🏻</h1> 
+    <p>A passionate student with a keen interest in the dynamic realms of web design and data analysis.</p>
+    <p>Currently pursuing my academic journey, I find myself deeply engrossed in the world of crafting visually captivating and user-friendly websites.</p>
+  </section>
+  <section>
+    <div class="social-icons">
+   
+      <a href="https://www.linkedin.com/in/arpitsharma777/"><img src="images/linkedin.png"/>
+      <a href="https://www.instagram.com/_arpit_._sharma_/">
+        <img src="images/instacon.png" alt="Instagram"/>
+      </a>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          HTML 
+          <div class="progress-bar">
+            <div class="progress" data-percent="80%"></div>
+          </div>
+        </li>
+        <li>
+          CSS 
+          <div class="progress-bar">
+            <div class="progress" data-percent="80%"></div>
+          </div>
+        </li>
+        <li>
+          SQL 
+          <div class="progress-bar">
+            <div class="progress" data-percent="40%"></div>
+          </div>
+        </li>
+        <li>
+          PYTHON 
+          <div class="progress-bar">
+            <div class="progress" data-percent="60%"></div>
+          </div>
+        </li>
+        <li>
+          PHP 
+          <div class="progress-bar">
+            <div class="progress" data-percent="30%"></div>
+          </div>
+        </li>
+        <li>
+          Javascript 
+          <div class="progress-bar">
+            <div class="progress" data-percent="50%"></div>
+          </div>
+        </li>
+        <li>
+          Java 
+          <div class="progress-bar">
+            <div class="progress" data-percent="60%"></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="project-card">  <h3>Blood Donar Application</h3>
+          <img src="images/blood logo.png" alt="Project 1 Image">
+          <p>Its to register yourself as donor</p>
+        </div>
+      </div>
+      </section>
+    
+
+      <section id="resume">
+        <div class="cv">
+        <h2>Resume</h2>
+        <a href="Arpit_resume.pdf" >View CV</a>
+        </div>
+      </section>
+      
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contactme">
+    <p>Email: <a href="mailto:arpit.31093@gmail.com">arpit.31093@gmail.com</a></p>
+    <p>Phone: 7892880377</p>
+  </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Arpit Sharma. All Rights Reserved.</p>
+  </footer>
+  <script>
+  const progressElements = document.querySelectorAll('.progress[data-percent]');
+
+progressElements.forEach((element) => {
+  const percent = element.getAttribute('data-percent');
+  element.style.width = percent;
+});
+</script>
+</body>
+</html>
